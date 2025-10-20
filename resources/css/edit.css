@@ -1,0 +1,90 @@
+/* ====== Estilos generales ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  /* ====== Encabezados ====== */
+  h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 30px;
+  }
+  
+  /* ====== Enlaces ====== */
+  a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* ====== Botones ====== */
+  button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  button:hover {
+    background-color: #1e40af;
+  }
+  
+  /* ====== Formularios ====== */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* ====== Lista de libros ====== */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  li form {
+    display: inline;
+    margin: 0;
+  }

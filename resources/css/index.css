@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .btn-agregar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn-agregar a {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .btn-agregar a:hover {
+    background-color: #217dbb;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .btn-editar,
+  .btn-eliminar {
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+  }
+  
+  .btn-editar {
+    background-color: #2ecc71;
+  }
+  
+  .btn-editar:hover {
+    background-color: #27ae60;
+  }
+  
+  .btn-eliminar {
+    background-color: #e74c3c;
+  }
+  
+  .btn-eliminar:hover {
+    background-color: #c0392b;
+  }
+  
+  form {
+    display: inline;
+  }

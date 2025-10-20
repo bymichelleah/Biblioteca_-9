@@ -1,0 +1,60 @@
+/* ====== Estilos generales ====== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 40px;
+  }
+  
+  /* ====== Título ====== */
+  h1 {
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 30px;
+  }
+  
+  /* ====== Formulario ====== */
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* ====== Botón ====== */
+  button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    transition: background-color 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #1e40af;
+  }
